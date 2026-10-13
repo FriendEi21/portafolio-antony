@@ -1,0 +1,5 @@
+*.md
+favicon.ico
+
+.DS_Store
+Thumbs.db

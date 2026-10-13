@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portafolio profesional de Antony Alvitrez - Frontend Developer & IT Support Specialist. Soluciones web modernas e infraestructura tecnológica.">
+  <meta name="author" content="Antony Alvitrez">
+  <meta name="theme-color" content="#0d0e1b">
+
+  <!-- Open Graph / Meta Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Antony Alvitrez | Frontend Developer & IT Support">
+  <meta property="og:description"
+    content="Creando interfaces web modernas y asegurando la estabilidad operativa mediante administración avanzada de TI.">
+
+  <title>Antony Alvitrez | Frontend Developer & IT Support</title>
+
+  <!-- Google Fonts: Outfit & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header & Sticky Optimized Navbar -->
+  <header id="site-header" class="site-header">
+    <nav class="nav-container" aria-label="Navegación principal">
+      <a href="#home" class="logo" id="logo-link">
+        <span class="logo-symbol">&lt;</span>Antony<span class="logo-accent">.dev</span><span
+          class="logo-symbol">/&gt;</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item">
+          <a href="#home" class="nav-link active" id="nav-link-home">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link" id="nav-link-about">Sobre Mí</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link" id="nav-link-projects">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link" id="nav-link-contact">Contacto</a>
+        </li>
+      </ul>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger-btn" id="menu-toggle" aria-label="Alternar menú de navegación" aria-expanded="false"
+        aria-controls="nav-menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero / Portada Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Disponible para nuevos desafíos</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hola, soy <span class="gradient-text">Antony Alvitrez</span>
+          </h1>
+
+          <p class="hero-role">
+            Frontend Developer &amp; IT Support Specialist
+          </p>
+
+          <p class="hero-summary">
+            Creando interfaces web modernas y asegurando la estabilidad operativa mediante administración avanzada de
+            TI.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" id="btn-hero-projects">
+              <span>Ver mis proyectos</span>
+              <img src="assets/icons/arrow-right.svg" class="btn-icon-svg" alt="" aria-hidden="true" width="18"
+                height="18">
+            </a>
+
+            <a href="https://drive.google.com/file/d/15GAX65-OrvY0xGURoAOw3ZaenAJNj_rQ/view?usp=sharing" target="_blank"
+              rel="noopener noreferrer" class="btn btn-outline" id="btn-hero-cv">
+              <img src="assets/icons/document.svg" class="btn-icon-svg" alt="" aria-hidden="true" width="18"
+                height="18">
+              <span>Descargar CV</span>
+              <img src="assets/icons/external-link.svg" class="btn-icon-svg-ext" alt="" aria-hidden="true" width="15"
+                height="15">
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Avatar Visual -->
+        <div class="hero-visual">
+          <div class="hero-avatar-wrapper">
+            <div class="hero-avatar-glow" aria-hidden="true"></div>
+            <div class="hero-avatar-frame">
+              <img src="assets/img/avatar.png" alt="Antony Alvitrez" class="hero-avatar-img">
+            </div>
+            <div class="hero-avatar-badge">
+              <span class="status-pulse" aria-hidden="true"></span>
+              <span class="status-text">UNCP &bull; EsSalud IT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Sobre Mí Section -->
+    <section id="about" class="section about-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">Conóceme</span>
+          <h2 class="section-title">Sobre Mí</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text presentation -->
+          <article class="about-card intro-card">
+            <div class="intro-header">
+              <div class="intro-avatar-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <h3 class="intro-title">Perfil Profesional</h3>
+            </div>
+            <p class="about-text">
+              Estudiante de Ingeniería de Sistemas en la UNCP. Como practicante de Soporte Informático en la Red
+              Asistencial Junín (EsSalud), he fortalecido mi capacidad resolutiva en entornos críticos, combinando mi
+              pasión por el desarrollo Frontend con un sólido dominio de la infraestructura tecnológica.
+            </p>
+
+            <div class="highlight-pills">
+              <div class="pill-item">
+                <img src="assets/img/Logo_UNCP.png" class="pill-icon-svg" alt="" aria-hidden="true" width="22"
+                  height="22">
+                <span class="pill-text">Universidad Nacional del Centro del Perú (UNCP)</span>
+              </div>
+              <div class="pill-item">
+                <img src="assets/img/EsSalud-Logo.png" class="pill-icon-svg" alt="" aria-hidden="true" width="22"
+                  height="22">
+                <span class="pill-text">EsSalud - Red Asistencial Junín</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Skills visual categories -->
+          <div class="skills-wrapper">
+            <!-- Frontend Skills -->
+            <article class="skills-card">
+              <div class="skills-card-header">
+                <div class="category-icon frontend-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="category-title">Frontend</h4>
+                  <span class="category-sub">Desarrollo de interfaces dinámicas</span>
+                </div>
+              </div>
+              <div class="badges-container">
+                <span class="skill-badge"><i class="badge-dot-small"></i>React</span>
+                <span class="skill-badge"><i class="badge-dot-small"></i>Vite</span>
+                <span class="skill-badge"><i class="badge-dot-small"></i>Tailwind CSS</span>
+                <span class="skill-badge"><i class="badge-dot-small"></i>HTML/CSS</span>
+                <span class="skill-badge"><i class="badge-dot-small"></i>JavaScript</span>
+              </div>
+            </article>
+
+            <!-- Soporte IT & OS -->
+            <article class="skills-card">
+              <div class="skills-card-header">
+                <div class="category-icon it-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                    <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                    <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="category-title">Soporte IT &amp; OS</h4>
+                  <span class="category-sub">Infraestructura y administración operativa</span>
+                </div>
+              </div>
+              <div class="badges-container">
+                <span class="skill-badge"><i class="badge-dot-small"></i>Admin Avanzada Windows/Linux</span>
+                <span class="skill-badge"><i class="badge-dot-small"></i>CMD/Terminal</span>
+                <span class="skill-badge"><i class="badge-dot-small"></i>Mantenimiento Hardware</span>
+                <span class="skill-badge"><i class="badge-dot-small"></i>Redes</span>
+              </div>
+            </article>
+
+            <!-- Bases de Datos & Backend -->
+            <article class="skills-card">
+              <div class="skills-card-header">
+                <div class="category-icon db-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="category-title">Bases de Datos &amp; Backend</h4>
+                  <span class="category-sub">Gestión de datos y almacenamiento</span>
+                </div>
+              </div>
+              <div class="badges-container">
+                <span class="skill-badge"><i class="badge-dot-small"></i>PostgreSQL</span>
+                <span class="skill-badge"><i class="badge-dot-small"></i>Supabase</span>
+                <span class="skill-badge"><i class="badge-dot-small"></i>SSMS (SQL Server)</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects / Proyectos Section -->
+    <section id="projects" class="section projects-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">Portafolio</span>
+          <h2 class="section-title">Proyectos Destacados</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Proyecto 1 -->
+          <article class="project-card" id="project-biometrico">
+            <div class="project-img-wrapper">
+              <img src="assets/img/projecto1.jpg" alt="Proyecto Registro Biométrico en EsSalud" class="project-img"
+                loading="lazy">
+              <div class="project-overlay">
+                <span class="project-num">01</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Registro Biométrico en EsSalud</h3>
+              <p class="project-description">
+                Planteamiento y diseño de arquitectura para el sistema de control de asistencia hospitalaria.
+              </p>
+              <div class="project-tech-tags" aria-label="Tecnologías empleadas">
+                <span class="tech-tag">Infraestructura IT</span>
+                <span class="tech-tag">Biometría</span>
+                <span class="tech-tag">Redes</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 2 -->
+          <article class="project-card" id="project-ecommerce">
+            <div class="project-img-wrapper">
+              <img src="assets/img/Projecto2.png" alt="Proyecto E-commerce SV - LubSA" class="project-img"
+                loading="lazy">
+              <div class="project-overlay">
+                <span class="project-num">02</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">E-commerce "SV - LubSA"</h3>
+              <p class="project-description">
+                Web app de comercio electrónico con arquitectura moderna, pruebas unitarias y documentación IEEE.
+              </p>
+              <div class="project-tech-tags" aria-label="Tecnologías empleadas">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Vite</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Jest</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 3 -->
+          <article class="project-card" id="project-alarma">
+            <div class="project-img-wrapper">
+              <img src="assets/img/Projecto3.jpg" alt="Proyecto Alarma Sísmica Preventiva" class="project-img"
+                loading="lazy">
+              <div class="project-overlay">
+                <span class="project-num">03</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Alarma Sísmica Preventiva</h3>
+              <p class="project-description">
+                Prototipo de hardware y programación orientada a la prevención de desastres para ferias de ciencias.
+              </p>
+              <div class="project-tech-tags" aria-label="Tecnologías empleadas">
+                <span class="tech-tag">Arduino</span>
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">Electrónica</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 4 -->
+          <article class="project-card" id="project-reservas">
+            <div class="project-img-wrapper">
+              <img src="assets/img/projecto4.png" alt="Proyecto Arquitectura de Reservas Hotelera" class="project-img"
+                loading="lazy">
+              <div class="project-overlay">
+                <span class="project-num">04</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Arquitectura de Reservas Hotelera</h3>
+              <p class="project-description">
+                Propuesta académica de gestión basada en blockchain bajo estándares de calidad ISO 22483.
+              </p>
+              <div class="project-tech-tags" aria-label="Tecnologías empleadas">
+                <span class="tech-tag">Blockchain</span>
+                <span class="tech-tag">Arquitectura Empresarial</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Contacto Section -->
+    <section id="contact" class="section contact-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-tag">Hablemos</span>
+          <h2 class="section-title">Contacto</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-intro">
+            <h3 class="contact-heading">¿Tienes un proyecto en mente o una propuesta técnica?</h3>
+            <p class="contact-desc">
+              Estoy disponible para oportunidades en desarrollo Frontend y proyectos de infraestructura o soporte IT.
+              Escríbeme y conversemos sobre cómo colaborar juntos.
+            </p>
+          </div>
+
+          <!-- Main Email Action Button -->
+          <div class="contact-main-action">
+            <a href="mailto:antonya2704@gmail.com" class="btn btn-primary contact-email-btn" id="btn-contact-email">
+              <img src="assets/icons/email.svg" class="btn-icon-svg" alt="" aria-hidden="true" width="20" height="20">
+              <span>antonya2704@gmail.com</span>
+            </a>
+          </div>
+
+          <!-- Direct Social & Channels Grid -->
+          <div class="contact-channels-grid">
+            <a href="https://github.com/FriendEi21" target="_blank" rel="noopener noreferrer"
+              class="contact-channel-item" id="contact-github">
+              <div class="channel-icon-box">
+                <img src="assets/icons/github.svg" alt="GitHub" class="channel-icon-img" width="24" height="24">
+              </div>
+              <div class="channel-info">
+                <span class="channel-title">GitHub</span>
+                <span class="channel-handle">@FriendEi21</span>
+              </div>
+              <img src="assets/icons/external-link.svg" class="channel-arrow" alt="" aria-hidden="true" width="16"
+                height="16">
+            </a>
+
+            <a href="https://www.linkedin.com/in/antony-alvitrez-5b559232a" target="_blank" rel="noopener noreferrer"
+              class="contact-channel-item" id="contact-linkedin">
+              <div class="channel-icon-box">
+                <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="channel-icon-img" width="24" height="24">
+              </div>
+              <div class="channel-info">
+                <span class="channel-title">LinkedIn</span>
+                <span class="channel-handle">Antony Alvitrez</span>
+              </div>
+              <img src="assets/icons/external-link.svg" class="channel-arrow" alt="" aria-hidden="true" width="16"
+                height="16">
+            </a>
+
+            <a href="https://www.instagram.com/antony.aq.21/" target="_blank" rel="noopener noreferrer"
+              class="contact-channel-item" id="contact-instagram">
+              <div class="channel-icon-box">
+                <img src="assets/icons/instagram.svg" alt="Instagram" class="channel-icon-img" width="24" height="24">
+              </div>
+              <div class="channel-info">
+                <span class="channel-title">Instagram</span>
+                <span class="channel-handle">@antony.aq.21</span>
+              </div>
+              <img src="assets/icons/external-link.svg" class="channel-arrow" alt="" aria-hidden="true" width="16"
+                height="16">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-social-links">
+        <a href="https://github.com/FriendEi21" target="_blank" rel="noopener noreferrer" class="social-link"
+          id="link-footer-github" aria-label="Perfil de GitHub de Antony Alvitrez">
+          <img src="assets/icons/github.svg" alt="GitHub" class="social-icon-img" width="20" height="20">
+          <span class="social-label">GitHub</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/antony-alvitrez-5b559232a" target="_blank" rel="noopener noreferrer"
+          class="social-link" id="link-footer-linkedin" aria-label="Perfil de LinkedIn de Antony Alvitrez">
+          <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="social-icon-img" width="20" height="20">
+          <span class="social-label">LinkedIn</span>
+        </a>
+
+        <a href="https://www.instagram.com/antony.aq.21/" target="_blank" rel="noopener noreferrer" class="social-link"
+          id="link-footer-instagram" aria-label="Perfil de Instagram de Antony Alvitrez">
+          <img src="assets/icons/instagram.svg" alt="Instagram" class="social-icon-img" width="20" height="20">
+          <span class="social-label">Instagram</span>
+        </a>
+
+        <a href="mailto:antonya2704@gmail.com" class="social-link" id="link-footer-email"
+          aria-label="Enviar correo electrónico a Antony Alvitrez">
+          <img src="assets/icons/email.svg" alt="Email" class="social-icon-img" width="20" height="20">
+          <span class="social-label">Email</span>
+        </a>
+      </div>
+
+      <p class="footer-copy">
+        &copy; 2026 Antony Alvitrez. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript -->
+  <script src="main.js"></script>
+</body>
+
+</html>
